@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import {
   addToCart,
   removeFromCart,
-} from "../redux/actionCreators/productActions";
+} from "../redux/actions/productActions";
 import { AiFillDelete } from "react-icons/ai";
 import { useLocation } from "react-router-dom";
 
